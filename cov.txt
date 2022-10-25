@@ -1,0 +1,9 @@
+[GIN] 2022/10/25 - 16:23:49 | 200 |        98.1µs |                 | GET      "/gui"
+[GIN] 2022/10/25 - 16:23:49 | 200 |      2.7828ms |                 | GET      "/alunos"
+[GIN] 2022/10/25 - 16:23:49 | 200 |        2.89ms |                 | GET      "/alunos/cpf/12345678901"
+[GIN] 2022/10/25 - 16:23:49 | 200 |      3.0113ms |                 | GET      "/alunos/45"
+[GIN] 2022/10/25 - 16:23:49 | 200 |     36.0607ms |                 | DELETE   "/alunos/46"
+[GIN] 2022/10/25 - 16:23:50 | 200 |     35.8577ms |                 | PATCH    "/alunos/47"
+PASS
+coverage: 0.0% of statements
+ok  	github.com/guilhermeonrails/api-go-gin	0.889s
